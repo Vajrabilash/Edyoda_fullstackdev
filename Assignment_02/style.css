@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:lightblue;
+}
+#abhdr{
+    background-color:dodgerblue;
+    padding: 5px 500px;
+}
+header{
+    padding: 18px 78px;
+    background-color: white;
+}
+h2{
+    width: 130px;
+    margin: 0px;
+    color: #0084ff;
+}
+#lst{
+    margin:0px;
+    font-size:500;
+    font-family: Raleway;
+    font-style: Italic;
+}
+select{   
+    margin-top: -33px;
+    margin-left: 150px;
+    display: block;
+    border-style: none;
+    font-size: 15px;
+}
+select option{
+    color: gray;
+}
+#rtct{
+    margin: 0px;
+    margin-left: 750px;
+    margin-top: -40px;
+    display:block;
+    color: gray;
+}
+button{
+    padding:10px;
+    display: block;
+    margin-top: -48px;
+    margin-left: 85%;
+    border-radius: 20px;
+    background-color: #0084ff;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    margin-left: 230px;
+
+}
+#imgg1{
+    margin-top: -50px;
+}
