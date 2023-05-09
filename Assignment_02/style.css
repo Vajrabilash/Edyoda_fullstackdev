@@ -1,60 +1,62 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color:lightblue;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
 }
-#abhdr{
-    background-color:dodgerblue;
-    padding: 5px 500px;
+.abvhdr{
+    background-color:deepskyblue;
+    width: 100%;
+    /* position: fixed; */
+    padding: 3px;
+}
+.abvhdr center{
+    color: white;
+}
+.cen{
+    color: white;
+    text-decoration: none;
 }
 header{
+    
+    width: 100%;
+    /* position: fixed; */
     padding: 18px 78px;
     background-color: white;
 }
-h2{
-    width: 130px;
-    margin: 0px;
+.logo{
+    width:0%;
     color: #0084ff;
-}
-#lst{
-    margin:0px;
-    font-size:500;
-    font-family: Raleway;
-    font-style: Italic;
-}
-select{   
-    margin-top: -33px;
-    margin-left: 150px;
-    display: block;
-    border-style: none;
-    font-size: 15px;
-}
-select option{
-    color: gray;
-}
-#rtct{
     margin: 0px;
-    margin-left: 750px;
-    margin-top: -40px;
-    display:block;
-    color: gray;
 }
-button{
-    padding:10px;
+.lgstr{
+    width: 0%;
+    margin: 0px;
+    font-style: italic;
+}
+.opt{
     display: block;
-    margin-top: -48px;
-    margin-left: 85%;
-    border-radius: 20px;
-    background-color: #0084ff;
+    margin: 0px;
+    margin-top: -36px;
+    margin-left: 180px;
+    border: none;
 }
-button a{
+.rgtcnt{
+    display: inlineblock;
+    
+}
+.rgtcnt p{
+    padding-left: 680px;
+    margin-top: -22px;
+}
+.rgtcnt a{
+    display: block;
     text-decoration: none;
-    color: white;
-}
-#container{
-    margin-left: 230px;
-
-}
-#imgg1{
+    padding-left: 980px;
     margin-top: -50px;
+    border-radius: 50px;
+}
+.rgtcnt button{
+    border-radius: 50px;
+    padding: 8px;
+    background-color:#0084ff;
 }
