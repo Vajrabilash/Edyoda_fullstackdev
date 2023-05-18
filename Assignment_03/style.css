@@ -27,13 +27,21 @@ header ul li{
 b{
     color: gray;
     font-size: 20px;
-    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-bottom: 0%;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 header ul li b:hover{
     cursor: pointer;
     text-decoration: underline blue;
-    
     color: black;
 }
 button{
@@ -48,6 +56,7 @@ button{
 button a{
     text-decoration: none;
     font-style: bold;
+    font-weight: bold;
     color: gray;
     font-size: bold;
 }
